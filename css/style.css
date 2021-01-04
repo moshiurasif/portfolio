@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+h2{
+    font-size: 40px;
+}
+
+h3 {}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-image: linear-gradient(45deg, rgb(247 138 106), rgb(251 100 84));
+    border-radius: 5px;
+    padding: 10px 25px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.4s linear;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+}
+
+a:hover {
+    padding: 10px 35px;
+}
+
+.welcome-aria {
+    background: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 50px 0;
+}
+
+.top {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.top p{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.top img {
+    width: 100%;
+}
+
+
+
+.highlight-orange {
+    color: #ffa92d;
+}
+.dream-aria{
+    background: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.experience-aria{
+    background: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 50px 0;
+    overflow: hidden;
+}
+.experience-aria .top h2{
+    font-size: 30px;
+}
+.single-experience{
+    height: 70%;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+p{
+    text-align: justify;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #7b32d8, #5c5ddd);
+    border-image-slice: 1;
+    }
+    #junior-stack {
+        border-left: 7px solid;
+       border-image: linear-gradient(180deg, rgb(56 155 245), rgb(28 208 216));
+        border-image-slice: 1;
+    }
+    footer p{
+        text-align: center;
+        font-size: 14px;
+    }
+
